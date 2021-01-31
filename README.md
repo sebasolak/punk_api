@@ -16,7 +16,7 @@ gmail email and password if you want api be able to send emails
 ```
 http://localhost:{your_default_port}/registration
 ```
-   and send a body in post request like example below:
+   and send a body in POST request like example below:
 ```
 {
     "login": "seba123",
@@ -27,23 +27,23 @@ http://localhost:{your_default_port}/registration
 ```
 ## Api map:
 
-* Select page number with five items (get request):
+* Select page number with five items (GET request):
 ```
 http://localhost:{your_default_port}/{num}
 ```
-* Save beer to favorite by beer id (get request):
+* Save beer to favorite by beer id (GET request):
 ```
 http://localhost:{your_default_port}/save/{beerId}
 ```
-* Delete beer from favorite by beer id (get request):
+* Delete beer from favorite by beer id (GET request):
 ```
 http://localhost:{your_default_port}/delete/{beerId}
 ```
-* List your favorite beers (get request):
+* List your favorite beers (GET request):
 ```
 http://localhost:{your_default_port}/favourite
 ```
-* Send an email with your favorite beers (get request):
+* Send an email with your favorite beers (GET request):
 ```
 http://localhost:{your_default_port}/sendMail
 ```
